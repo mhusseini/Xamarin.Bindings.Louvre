@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Xamarin.Bindings.Louvre</id>
+    <version>1.2.0</version>
+    <title>Xamarin.Bindings.Louvre</title>
+    <authors>Munir Husseini</authors>
+    <owners>Munir Husseini</owners>
+    <licenseUrl>https://github.com/mhusseini/Xamarin.Bindings.Louvre/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mhusseini/Xamarin.Bindings.Louvre</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin bindings library for the Android Louvre library</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>Xamarin Louvre Android Binding</tags>
+    <dependencies>
+      <dependency id="Xamarin.Android.Support.Design" version="25.3.1" />
+      <dependency id="Xamarin.Bindings.CounterFab" version="1.0.1" />
+      <dependency id="Xamarin.Bindings.PhotoView" version="2.1.2" />
+      <dependency id="Glide.Xamarin" version="3.7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Xamarin.Bindings.Louvre.dll" target="lib\monoandroid71" />
+  </files>
+</package>
